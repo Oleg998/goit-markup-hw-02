@@ -18,7 +18,7 @@ body {
   background-color: var(--color-white);
   color: var(--color-slate);
 }
-a {
+address {
   font-style: normal;
 }
 
@@ -130,7 +130,7 @@ a {
 .team {
   background-color: var(--color-cloud);
 }
-.team-list {
+.team-iteam {
   background-color: var(--color-white);
 }
 .team-title {
@@ -154,7 +154,7 @@ a {
 .team-text {
   text-align: center;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* ----------------------------FOOTER------------------ */
@@ -167,7 +167,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .footer-logo-first {
@@ -175,7 +175,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 .footer-text {
@@ -190,7 +190,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -200,7 +200,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   
 }
