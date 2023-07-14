@@ -16,7 +16,10 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-white);
-  color: var(--color-navy-blue);
+  color: var(--color-slate);
+}
+a {
+  font-style: normal;
 }
 
 .link {
@@ -27,10 +30,11 @@ body {
 }
 /* -------HEADER -----------*/
 .logo {
+  color: var(--color-navy-blue);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -39,23 +43,31 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-menu-link {
+  color: var(--color-navy-blue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  }
+  .header-menu-link:hover, .header-menu-link:focus, .header-menu-link:active{
+  color: var(--color-ocean);
+  text-decoration: underline;
 }
 .header-address-link {
-  color: var(--color-slate);
-  font-style: normal;
+  color: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-address-link:hover, .header-address-link:focus, .header-address-link:active{
+  color: var(--color-ocean);
+}
+
 /*----------- HERO------------ */
 .hero {
   background-color: var(--color-navy-blue);
@@ -85,13 +97,6 @@ body {
 }
 /* -------Advantage------- */
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -99,13 +104,13 @@ body {
 }
 
 .advantage-subtitle {
+  color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .advantage-text {
-  color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -113,25 +118,33 @@ body {
 /* ----------------Working----------- */
 
 .working-title {
+  color: var(--color-navy-blue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 /* --------------TEAM-------- */
 .team {
   background-color: var(--color-cloud);
 }
+.team-list {
+  background-color: var(--color-white);
+}
 .team-title {
+  color: var(--color-navy-blue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .team-subtitle {
+  color: var(--color-navy-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -139,10 +152,9 @@ body {
   letter-spacing: 0.02em;
 }
 .team-text {
-  color: var(--color-slate);
   text-align: center;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1,5;
   letter-spacing: 0.02em;
 }
 /* ----------------------------FOOTER------------------ */
@@ -150,6 +162,7 @@ body {
   background-color: var(--color-navy-blue);
 }
 .footer-logo {
+  text-transform: uppercase;
   color: var(--color-iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -169,25 +182,29 @@ body {
   color: var(--color-cloud);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 /*----------- Portfolio header ----------*/
 .header-portfolio-logo {
-  text-shadow: rgba(0, 0, 0, 0.25);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-.heder-portfolio-logo-web {
   color: var(--color-iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
+.heder-portfolio-logo-studio {
+  color: var(--color-navy-blue);
+  text-shadow: rgba(0, 0, 0, 0.25);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  
+}
+
 /* -----------------------PORTFOLIO---------- */
 .filter-btn {
   cursor: pointer;
@@ -207,13 +224,13 @@ body {
 }
 
 .portfolio-subtitle {
+  color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-text {
-  color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
