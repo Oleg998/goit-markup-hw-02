@@ -80,6 +80,7 @@ address {
   letter-spacing: 0.02em;
 }
 .hero-button {
+  cursor: pointer;
   background-color: var(--color-iris);
   font-family: inherit;
   color: var(--color-white);
@@ -202,6 +203,7 @@ address {
 
 /* -----------------------PORTFOLIO---------- */
 .filter-btn {
+  cursor: pointer;
   font-family: inherit;
   background-color: var(--color-cloud);
   color: var(--color-iris);
